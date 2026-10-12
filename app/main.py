@@ -57,7 +57,11 @@ def startup_db_seed():
         db.close()
         
 # 4. إعدادات CORS
-origins = ["http://localhost:3000"]
+origins = [
+    "http://localhost:3000",
+    "https://clinic-backend-1hw5.onrender.com"
+]
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
