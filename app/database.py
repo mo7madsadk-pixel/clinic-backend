@@ -7,7 +7,7 @@ from sqlalchemy.orm import sessionmaker
 
 # SQLite database in the project root. Adjust path as needed.
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATABASE_URL = "postgresql://postgres.qvxsqqohbntgdyjqvmix:Asd.zxc.123@aws-0-ap-northeast-1.pooler.supabase.com:5432/postgres"
+DATABASE_URL = "postgresql://postgres.qvxsqqohbntgdyjqvmix:Asd.zxc.123@aws-0-ap-northeast-1.pooler.supabase.com:6543/postgres"
 
 engine = create_engine(
     DATABASE_URL,
