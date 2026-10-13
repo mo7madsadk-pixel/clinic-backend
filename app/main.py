@@ -59,7 +59,7 @@ def startup_db_seed():
 # 4. إعدادات CORS
 origins = [
     "http://localhost:3000",
-    "https://clinic-backend-1hw5.onrender.com"
+    "https://clinic-frontend-clinic-frontend.vercel.app"
 ]
 
 app.add_middleware(
